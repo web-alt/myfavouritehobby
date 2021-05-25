@@ -1,3 +1,24 @@
 body {
     text-align: center;
 }
+
+hr {
+    width: 150px;
+    border-width:5;
+    color: black;
+}
+
+p {
+    font-size: 25px;
+    font-family: 'Odibee Sans', cursive;
+    letter-spacing: 1;
+}
+
+img {
+    border-radius: 50%;
+    width: 500px;
+}
+
+html {
+    background-color: mediumspringgreen;
+}
