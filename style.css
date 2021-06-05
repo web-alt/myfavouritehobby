@@ -1,11 +1,14 @@
 body {
+     margin: 0;
+    padding-top: 0;
     text-align: center;
 }
 
 hr {
-    width: 150px;
-    border-width:5;
+    width: 70px;
+    height: 5px;
     color: black;
+    background-color: black;
 }
 
 p {
@@ -14,11 +17,103 @@ p {
     letter-spacing: 1;
 }
 
-img {
+.profile {
     border-radius: 50%;
-    width: 500px;
+    width: 450px;
+    height: 200px;
+    margin-top: 150px;
+}
+
+#home {
+    background-color: mediumspringgreen;
+    position: absolute;
+    bottom: 0;
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;  
+}
+
+#hobby {
+    font-family: 'Comic Neue', cursive;
+    font-weight: 900;
+    padding-bottom: 60px;
+}
+
+#about {
+    background-color: antiquewhite;
+    width: 100%;
+    height: 60%;
+}
+
+.links a {
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 20px;
+    color: crimson;
+    text-shadow: 1px;
+}
+
+h1 {
+    font-size: 250%;
+    font-family: sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+.links: hover {
+    background-color: dodgerblue;
+}
+
+.menu {
+    list-style: none;
+    position: fixed;
+    background: white;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 10;
 }
 
 html {
-    background-color: mediumspringgreen;
+    scroll-behavior: smooth;
+}
+
+#myfavourite {
+    background-color: skyblue;
+    width: 100%;
+    height: auto;
+}
+
+#myfavouriteteam {
+    width: 100%;
+    height: 100%;
+}
+
+#paragraph {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.click {
+    font-family: 'Kaushan Script', cursive;
+}
+
+#dhoni {
+    width: 500px;
+    height: 400px;
+    margin-right: 30px;
+    border-radius: 30px;
+}
+
+#rahul {
+    width: 500px;
+    height: 400px;
+    border-radius: 30px;
+}
+
+#inspiration {
+    background-color: plum;
 }
